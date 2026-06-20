@@ -12,7 +12,7 @@ const ICONS = [
   },
   {
     id: 'open-kitchen',
-    shift: true,
+    shift: false,
     icon: (
       <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="3">
         <rect x="20" y="55" width="60" height="14" rx="2" />
@@ -36,7 +36,7 @@ const ICONS = [
   },
   {
     id: 'family-tables',
-    shift: true,
+    shift: false,
     icon: (
       <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="3">
         <rect x="20" y="50" width="60" height="6" />
