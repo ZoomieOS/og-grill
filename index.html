@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>OG Original Grill — Prawdziwa kuchnia gruzińska z duszą</title>
+    <meta
+      name="description"
+      content="OG Original Grill — gruzińska kuchnia i szaszłyk na węglu drzewnym w Warszawie. Otwarta kuchnia, rodzinne przepisy, rzemieślnicze przyprawy."
+    />
+
+    <!-- Замените на реальный домен после первого деплоя на Vercel -->
+    <link rel="canonical" href="https://og-original-grill.vercel.app/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, Telegram, LinkedIn…) -->
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:site_name" content="OG Original Grill" />
+    <meta property="og:title" content="OG Original Grill — Prawdziwa kuchnia gruzińska z duszą" />
+    <meta
+      property="og:description"
+      content="Gruzińska kuchnia i szaszłyk na węglu drzewnym w Warszawie. Otwarta kuchnia, rodzinne przepisy, rzemieślnicze przyprawy."
+    />
+    <meta property="og:url" content="https://og-original-grill.vercel.app/" />
+    <meta property="og:image" content="https://og-original-grill.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ka_GE" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OG Original Grill — Prawdziwa kuchnia gruzińska z duszą" />
+    <meta
+      name="twitter:description"
+      content="Gruzińska kuchnia i szaszłyk na węglu drzewnym w Warszawie."
+    />
+    <meta name="twitter:image" content="https://og-original-grill.vercel.app/og-image.jpg" />
+
+    <!-- Иконки -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#170C09" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: Restaurant / LocalBusiness, для Google (часы, адрес, кухня) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "OG Original Grill",
+        "image": "https://og-original-grill.vercel.app/og-image.jpg",
+        "url": "https://og-original-grill.vercel.app/",
+        "servesCuisine": "Georgian",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mołdawska 5/7, Pawilon nr 84",
+          "addressLocality": "Warszawa",
+          "postalCode": "02-127",
+          "addressCountry": "PL"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "12:00",
+            "closes": "22:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/o.g_originalgrill/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
